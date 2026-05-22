@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="pattern" id="pattern"></div>
+    <div class="container">
+        <svg width="750" height="320" viewBox="0 0 500 90" class="birthday-svg">
+    <path
+        id="curve"
+        d="M 80 170 A 120 30 0 0 1 420 170"
+        fill="transparent"/>
+    <text
+        font-size="56"
+        font-weight="bold"
+        letter-spacing="1">
+        <textPath
+            href="#curve"
+            startOffset="51%"
+            text-anchor="middle">
+            Happy Birthday Iva!
+        </textPath>
+    </text>
+</svg>
+        <img class="bouquet" src="assets/images/bouquet.png">
+        <button class="canvas-confetti-btn animate__animated">Click here for a cute surprise!
+        </button>
+    </div>
+<audio autoplay loop><source src="assets/music/birthday-music.mp3"></audio>
+<img class="cat-left" src="assets/images/cat1.png">
+<img class="cat-right" src="assets/images/cat2.png">
+<script type="module" src="script.js"></script>
+</body>
+</html>
