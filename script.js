@@ -57,3 +57,6 @@ for(let i = 0; i < 250; i++){
         (Math.random()*3 + 1) + "s";
     pattern.appendChild(sparkle);
 }
+window.onload = () => {
+    audio.play();
+};
