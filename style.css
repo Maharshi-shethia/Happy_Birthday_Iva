@@ -17,7 +17,7 @@ body{
 .heading{
     margin-top:20px;
     font-size:5rem;
-    color:#596943;
+    color:#f6416c;
 }
 .title {
     font-family: 'FreestyleScript', cursive;
@@ -130,7 +130,7 @@ text{
     font-family: 'FreestyleScript', cursive;
     font-size: clamp(2.5rem, 8vw, 5rem);
     font-weight: normal;
-    color: #596943;
+    color: #d1001f;
     text-align: center;
     margin: 30px auto;
     padding: 10px 20px;
